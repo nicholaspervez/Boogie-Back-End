@@ -6,6 +6,6 @@ export const pool = new Pool({
 });
 
 
-export function query(text, params) {
+export default function query(text, params) {
   return pool.query(text, params);
 }

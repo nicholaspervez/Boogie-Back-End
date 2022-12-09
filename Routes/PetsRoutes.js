@@ -1,9 +1,9 @@
 import { Router } from "express";
-const petsRoutes = Router();
+const petsRouter = Router();
 import {getPets} from "../Models/PetsMod.js";
 
 
-petsRoutes.get ("/", async function (req, res) {
+petsRouter.get ("/", async function (req, res) {
     const result = await getPets()
     console.log("got it")
     res.json({success: true, payload: result})
@@ -11,4 +11,4 @@ petsRoutes.get ("/", async function (req, res) {
 })
 
 
-export default petsRoutes;
+export default petsRouter;

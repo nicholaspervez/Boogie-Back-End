@@ -1,7 +1,7 @@
 import express from "express";
 // import morgan from "morgan";
-import { petsRouter } from "./Routes/pets.js";
-import { ownersRouter } from "./Routes/owners.js";
+import  petsRouter  from "./Routes/PetsRoutes.js";
+import  ownersRouter  from "./Routes/OwnersRoutes.js";
 // import cors from "cors";
 
 export const app = express();

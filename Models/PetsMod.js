@@ -1,4 +1,4 @@
-import query from "../db/index.js"
+import query from '../db/index.js'
 // import pkg from '../../db/index.js';
 // const {query} = pkg;
 
